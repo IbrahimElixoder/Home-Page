@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Homepage-prototype</title>
+   <style>
+   h1{
+   color: Blue;	
+   }
+  
+   h3{
+    color: red;	
+ text-align: ;
+   }
+   
+   background{
+   	color: gray;
+   }
+img{
+ font-height: 100px;
+ }
+
+button{
+ background-color: red;
+ width: 30;
+ height: 30;
+ 
+padding: 16px 42px;
+   box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+   line-height: 1.25;
+   background: #FC6E51;
+   text-decoration: none;
+   color: white;
+   font-size: 16px;
+   text-transform: uppercase;
+   position: relative;
+   overflow: hidden;
+}
+
+body {
+    background-color:#D5D5D5;
+}
+
+.sidenav {
+height:100%;
+width:0;
+position:fixed;
+top:0;
+left:0;
+padding-top:50px;
+background-color:black;
+overflow-x:hidden;
+z-index:1;
+transition:0.5s;
+}
+
+.sidenav a {
+display:block;
+padding:10px 8px 8px 30px;
+color:white;
+text-decoration:none;
+font-size:25px;
+transition:0.5s;
+
+}
+
+a:hover {
+color:#A0A0F9;
+}
+
+.sidenav .closebtn {
+position:absolute;
+top:0;
+right:35px;
+margin-left:35px;
+font-size:40px;
+}
+
+#btn {
+position:fixed;
+top:0;
+right:5px;
+font-size:50px;
+}
+
+   </style>
+</head>
+<body>
+ <h2>W.</h2> <h3>Homepage-Protortype</h3>
+  
+   <!-- mySidebar -->
+
+ <div class="sidenav" id="sidenav1">
+    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">New</a>
+    <a href="#">Popular</a>
+    <a href="#">Trending</a>
+    <a href="#">Categories</a>
+</div>
+<span id="btn" onclick="openNav()">&equiv;</span>
+
+ <!-- mySidebar -->
+
+<img src="https://i.pinimg.com/236x/11/91/6c/11916caa69b01fc1e885d6a7c9571c98.jpg">
+<img src="https://i.pinimg.com/236x/c2/91/26/c291262bf8c4feea519b6012765f37d9.jpg">
+
+ <h1>The Bright <br> Future of Web 3.0?</h1>
+
+ <p>We dive into the next evolution
+		of the web that claims to put the power
+		of the platforms back into the hands of the people.
+		But is it really fulfilling its promise? </p>
+	<br>
+	<button>R E A D - M O R E</button>
+   <br> <br> <br>
+    <legend style="background-color: black;"><h1 style="color: orange;">New </h1>
+	<br> 
+	  <h2 style="color: white;">Hydrogen VS Electric Cars</h2> 
+		<p style="color: gray;">Will hydrogen fueled cars ever catch up <br> to EVs?</p>
+			 <p style="color: gray;">_________________________________________________ </p>
+			<h2 style="color: white;">The Downsides of AI Artistry </h2>
+			<p Style="color: grey">What are the possible adverse effects of on-demand AI image generation?</p>
+			 <p style="color: grey">_________________________________________________</p>
+			<h2 style="color: white;">Is VC Funding Drying Up?</h2>
+			<p style="color: grey;">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+ <br>	</legend>
+ <br>
+  <img src=" https://i.pinimg.com/236x/97/c4/df/97c4df00712bb906f6b6c8dda03d3694.jpg ">
+<h2 style="color: lightGrey;">01</h2>
+  <strong>Reviving Retro PCs </strong>
+	<p style="color: grey;">What happens when old PCs are given modern upgrades?</p>
+	<br>
+	<img src=" https://i.pinimg.com/236x/e6/29/ec/e629ecf0311bc90a699eda1f01f7e0e1.jpg ">	
+   <h2 style="color: lightGrey;">02</h2>
+  <strong>Top 10 Laptops of 2022</strong>
+	 <p style="color: grey;">Our best picks for various needs and budgets.</p>
+	<br>
+	<img src=" https://i.pinimg.com/236x/49/82/a8/4982a85d59a8a9a469c7cf47e9190792.jpg ">
+	<h2 style="color: lightGrey;">03</h2>
+		<strong>The Growth of Gaming</strong>
+		<p style="color: grey;">How the pandemic has sparked fresh opportunities. </p>
+  
+ <script>
+  alert("Front End Mentor's Challenge");
+
+function openNav() {
+    document.getElementById("sidenav1")
+    .style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("sidenav1")
+    .style.width = "0px";
+}
+   
+</script>
+ </body>
+</html>
+ 
